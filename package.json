@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline"
+    "start": "webpack-dev-server --inline",
+    "debug": "webpack-dev-server --inline -d",
+    "production-start": "webpack-dev-server --config webpack.config.js -p"
   },
   "keywords": [],
   "author": "David Spires",
